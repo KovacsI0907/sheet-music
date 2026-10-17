@@ -8,7 +8,7 @@
 % --- AKKORDOK (Gitárhoz) ---
 akkordok = \chordmode {
   % Ide jönnek az akkordok (pl. c1 a2:m g2)
-  \partial 4 s4 | c1 | f1 | 
+  \partial 4. s4. | c1 | f1 | 
   c2 a2:m | g1 | c1 |
   f1 | c2 g2 | c1 |
   f1 | c1 | f2 c2 |
@@ -23,7 +23,7 @@ dallam = \relative c' {
   \time 4/4    % Ütemmutató beállítása (pl. 3/4, 6/8)
   
   % Ide jönnek a hangjegyek. A | jel segít átlátni az ütemeket (opcionális).
-  \partial 4 \tuplet 3/2 {c8 c e} | e4 r8 e8 {e8 d d c} | c4 a4. {c8 c e} |
+  \partial 4. {c8 c e} | e4 r8 e8 {e8 d d c} | c4 a4. {c8 c e} |
   e4. e8 {e8 c g' e} | d2~ {d8 c c e} | e4 r8 e8 {e16 d8.} {d16 c8.} |
   c4 a4. { c8 c e} | e4. e8 {e8 d} {d8. c16} | e2 r8 {e8 e a} |
   a4 r8 a8 {a8. g16} {g8 f} | {e8 (g)} g4. r8 {c8 b} |
