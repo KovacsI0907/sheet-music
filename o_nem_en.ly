@@ -50,7 +50,7 @@ szovegHarom = \lyricmode {
 }
 
 szovegNegy = \lyricmode {
-  Míg lé -- leg -- zek, Jé -- zus -- sal já -- rok hí -- ven. Meg -- í -- gér -- te, hogy ér -- tem visz -- sza -- tér. És nap mint nap meg -- ú -- jít nagy ke -- gyel -- me, Így áll -- ha -- tok  majd szent trón -- ja e -- lé. Eb -- ben bí -- zom, min -- den re -- mé -- nyem Jé -- zus, Ö -- vé min -- den ál -- dás, tisz -- tes -- ség. Ha vé -- get ér é -- le -- tem, aj -- kam zeng szün -- te -- len: Ó, nem én Krisz -- tus élt ben -- nem!
+  Míg lé -- leg -- zek, Jé -- zus -- sal já -- rok hí -- ven. Meg -- í -- gér -- te, hogy ér -- tem visz -- sza -- tér. És nap mint nap meg -- ú -- jít nagy ke -- gyel -- me, Így áll -- ha -- tok  majd szent trón -- ja e -- lé. Eb -- ben bí -- zom, min -- den re -- mé -- nyem Jé -- zus, Ö -- vé min -- den ál -- dás, tisz -- tes -- ség. "Ha vé" -- get ér é -- le -- tem, aj -- kam zeng szün -- te -- len: Ó, nem én Krisz -- tus élt ben -- nem!
 }
 
 % --- KOTTA GENERÁLÁSA ---
