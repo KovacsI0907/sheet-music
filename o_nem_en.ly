@@ -8,9 +8,12 @@
 % --- AKKORDOK (Gitárhoz) ---
 akkordok = \chordmode {
   % Ide jönnek az akkordok (pl. c1 a2:m g2)
-  \partial 4 s4 | c1 | 
-  f1 | c2 a:m | g1 | c1 |
-  f1 | c2 g2 | 
+  \partial 4 s4 | c1 | f1 | 
+  c2 a2:m | g1 | c1 |
+  f1 | c2 g2 | c1 |
+  f1 | c1 | f2 c2 |
+  g1 | c2  g2 | c2 f2 |
+  c2 g2 | c1
 }
 
 % --- DALLAM ---
@@ -21,12 +24,11 @@ dallam = \relative c' {
   
   % Ide jönnek a hangjegyek. A | jel segít átlátni az ütemeket (opcionális).
   \partial 4 \tuplet 3/2 {c8 c e} | e4 r8 e8 {e8 d d c} | c4 a4. {c8 c e} |
-  e4. e8 {e8 c g' e} | d2 {d8 c c e} | e4 r8 e8 {e16 d8.} {d16 c8.} |
-  c4 a4. { c8 c e} | e4. e8 {e8 d} {d8. c16} | e4 r8 e8 {e16 d8.} {d16 c8.} |
-  c4 a4. {c8 c e} | e4. e8 {e8 d} {d8. c16} | c2 r8 {e8 e a} |
-  a4 r8 a8 {a8. g16} {g8 f} | {e8 g} g4. r8 {c8 b} |
+  e4. e8 {e8 c g' e} | d2~ {d8 c c e} | e4 r8 e8 {e16 d8.} {d16 c8.} |
+  c4 a4. { c8 c e} | e4. e8 {e8 d} {d8. c16} | e2 r8 {e8 e a} |
+  a4 r8 a8 {a8. g16} {g8 f} | {e8 (g)} g4. r8 {c8 b} |
   a4. g8 { g8 g g e } | d2~ d8 r8 {e8 d} | c4 { c8. d16 } d4 {d8 e} | e4 {c'8. b16} a8 r8 {g8 f} |
-  e4 {c8 e} d4. c8 | c2 c8 r8 r4 |
+  e4 {c8 e} d4. c8 | c2 (c8) r8 r4 |
 
   
   % A legvégére vedd ki a kommentet a következő sorból a záróvonalhoz:
@@ -36,19 +38,19 @@ dallam = \relative c' {
 % --- DALSZÖVEGEK (4 versszak) ---
 % A szavakat kötőjelekkel válaszd el: szó -- tag
 szovegEgy = \lyricmode {
-  El -- ső vers -- szak.
+  Mily drá -- ga kincs, mit Krisz -- tus -- ban meg -- nyer -- tem, nincs Ná -- la szebb, min -- den -- nél töb -- bet ér. Csak Ben -- ne van, ö -- rö -- möm, sza -- bad -- sá -- gom, Sze -- rel -- me mély, bé -- ké -- je vég -- te -- len. Eb -- ben -- bí -- zom min -- den re -- mé -- nyem Jé -- zus, Él -- tem már, Ő -- ben -- ne rejt -- ve van. Tit -- kát nem ért -- he -- tem: meg -- van már min -- de -- nem, Ó, nem én, Krisz -- tus él ben -- nem.
 }
 
 szovegKetto = \lyricmode {
-  Má -- so -- dik sor.
+  Az éj sö -- tét...
 }
 
 szovegHarom = \lyricmode {
-  Har -- ma -- dik rész.
+  Nem fé -- lek már...
 }
 
 szovegNegy = \lyricmode {
-  Ne -- gye -- dik jön.
+  Míg lé -- leg -- zek...
 }
 
 % --- KOTTA GENERÁLÁSA ---
