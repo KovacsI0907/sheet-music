@@ -42,7 +42,7 @@ szovegEgy = \lyricmode {
 }
 
 szovegKetto = \lyricmode {
-  Az éj sö -- tét...
+  Az éj sö -- tét, de nem ha -- gyott ma -- gam --ra, E -- rős jobb -- ja lesz lel -- kem tá -- ma -- sza. Fu -- tok -- küz -- dök, min -- dent ö -- röm -- nek tart -- va Míg cél -- ba é -- rek egy -- kor Ál -- ta -- la. Eb -- ben bí -- zom, jó Pász -- to -- rom lesz paj -- zsom Ő ve -- zet ha -- lál -- nak völ -- gyén át Tu -- dom, jól, Mes -- te -- rem tart -- ja meg é -- le -- tem, Ó, nem én, Krisz -- tus él ben -- nem.
 }
 
 szovegHarom = \lyricmode {
