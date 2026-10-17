@@ -46,11 +46,11 @@ szovegKetto = \lyricmode {
 }
 
 szovegHarom = \lyricmode {
-  Nem fé -- lek már...
+  Nem fé -- lek már, vét -- kem el lett tö -- röl -- ve. El -- múlt a vád, fi -- zet -- ve min -- den kár. Mert ér -- tem halt, Ő hord -- ta bün -- te -- té -- sem "S föl" -- tá -- ma -- dott a sír -- ból győz -- te -- sen. Bí -- zom Ben -- ne, min -- den bű -- nöm le -- győz te, Jé -- zus most, "s ö" -- rök -- ké vé -- del -- mem. Győ -- zel -- mét é -- nek -- lem, sza -- bad -- dá lett lel -- kem, Ó, nem én Krisz -- tus -- él -- ben -- nem.
 }
 
 szovegNegy = \lyricmode {
-  Míg lé -- leg -- zek...
+  Míg lé -- leg -- zek, Jé -- zus -- sal já -- rok hí -- ven. Meg -- í -- gér -- te, hogy ér -- tem visz -- sza -- tér. És nap mint nap meg -- ú -- jít nagy ke -- gyel -- me, Így áll -- ha -- tok  majd szent trón -- ja e -- lé. Eb -- ben bí -- zom, min -- den re -- mé -- nyem Jé -- zus, Ö -- vé min -- den ál -- dás, tisz -- tes -- ség. Ha vé -- get ér é -- le -- tem, aj -- kam zeng szün -- te -- len: Ó, nem én Krisz -- tus élt ben -- nem!
 }
 
 % --- KOTTA GENERÁLÁSA ---
