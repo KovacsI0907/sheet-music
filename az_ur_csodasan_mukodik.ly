@@ -6,7 +6,7 @@
 }
 
 akkordok = \chordmode {
-  s8 | 
+  s8 | d2.:m | d2.:m | f2. | a2.
 }
 
 dallam = \relative c' {
