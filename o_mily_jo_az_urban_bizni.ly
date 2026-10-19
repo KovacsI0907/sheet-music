@@ -5,15 +5,17 @@
 }
 
 akkordok = \chordmode {
-  g1 | c1 | g1 | c2 d2 | g1 |
-  c2 g2 | e2:m c2 | d2 g2 | s1 | c2 d2 | g1 |
-  s2 d2 | g1 | c2 g2 | e2:m c2 | d2 g2 |
+  g1 | c2 g2 | g1 | d1 |
+  g1 | c2 g2 | e2:m a2:m | d2 g2 |
+  g1 | d1 | g1 | d1 |
+  g1 | c2 g2 | e2:m a2:m | d2 g2 |
 }
 
 dallam = \relative c' {
   \clef treble
   \key g \major 
   \time 4/4    
+  \tempo 4 = 80
   
   b'4 a g4. fis8 | e4 g e d | g4 b d4. b8 | a4 g a2 | b4 a g4. fis8 |
   e4 g e d | g4 b e,4. a8 | g4 fis g2 | b4 d d b | a4 g b a | b4 d d4. b8 |
@@ -57,6 +59,6 @@ szovegNegy = \lyricmode {
   }
   
   \midi { 
-    \tempo 4 = 100 
+    \tempo 4 = 80
   }
 }
