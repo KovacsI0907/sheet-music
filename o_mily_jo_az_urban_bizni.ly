@@ -20,7 +20,7 @@ versDallam = \relative c' {
   \clef treble
   \key g \major 
   \time 4/4    
-  \tempo 4 = 80
+  \tempo 4 = 90
   
   b'4 a g4. fis8 | e4 g e d | g4 b d4. b8 | a4 g a2 | 
   b4 a g4. fis8 | e4 g e d | g4 b e,4. a8 | g4 fis g2 | 
@@ -74,7 +74,7 @@ szovegNegy = \lyricmode {
     \new Lyrics = "sor4" \lyricsto "vers" { \szovegNegy }
     
     % A refrén hozzáfűzése a legfelső "sor1" szövegsorhoz!
-    \context Lyrics = "sor1" \lyricsto "refren" { \szovegRefren }
+    \context Lyrics = "sor2" \lyricsto "refren" { \szovegRefren }
   >>
   
   \layout { 
@@ -82,6 +82,5 @@ szovegNegy = \lyricmode {
   }
   
   \midi { 
-    \tempo 4 = 80
   }
 }
