@@ -6,19 +6,18 @@
 }
 
 akkordok = \chordmode {
-  s8 | 
+  s8 |
+  % System 1
+  d4.:m a4.:7 | a4.:7 d4.:m | d4.:m f4. | f4. d4.:m |
   
-  % Phrase 1 (Home -> Journey -> Tension)
-  d2.:m | d2.:m | f2. | a2. |
+  % System 2
+  d4.:m a4. | c4. f4. | c4/e f8 c4. | f2. |
   
-  % Phrase 2 (Home -> Lift -> Journey -> Tension)
-  d2.:m | f2. | g2.:m | a2. |
+  % System 3 (No Bb chord needed!)
+  d4.:m g4.:m | f4 c8 f4. | g4.:m c4. | f2. |
   
-  % Phrase 3 (Staying grounded)
-  d2.:m | f2. | g2.:m | a2. |
-  
-  % Phrase 4 (The Grand Finale: Faster chord changes)
-  a2.:7 | a4. d4.:m | g4.:m a4. | d2.:m |
+  % System 4
+  a4 d8:m g4.:m | a4. d4.:m | g4.:m a4.:7 | d4.:m 
 }
 
 dallam = \relative c' {
